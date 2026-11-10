@@ -1,76 +1,82 @@
-
-<!--
-Muhammad ahmed
-26i-3040
-A
--->
-
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Desi Dastarkhwan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desi Dastarkhwan - comforting Pakistani food made with homestyle care.">
+    <title>Desi Dastarkhwan | Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <header class="site-header">
+        <a class="brand" href="index.html">Desi <span>Dastarkhwan</span></a>
+        <nav aria-label="Main navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="menu.html">Our Menu</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
 
-    <h1>Desi Dastarkhwan</h1>
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">A little taste of home</p>
+                <h1>Good food brings<br>everyone together.</h1>
+                <p>From fragrant biryani to comforting daal chawal, enjoy familiar desi flavours made with care and served with a whole lot of love.</p>
+                <a class="button-link" href="menu.html">Explore our menu</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/biryani.jpg" alt="A traditional bowl of fragrant biryani with rice and spices">
+            </div>
+        </section>
 
-    <p>Authentic Taste, Homemade Love!</p>
+        <section class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Fresh from our kitchen</p>
+                <h2>Popular picks</h2>
+                <p>Some of the dishes our guests keep coming back for.</p>
+            </div>
+            <div class="food-grid">
+                <article class="food-card">
+                    <img src="images/biryani.jpg" alt="Chicken biryani served in a traditional dish">
+                    <div class="food-card-content">
+                        <h3>Chicken Biryani</h3>
+                        <p>Long-grain rice, tender chicken and a warming blend of spices.</p>
+                        <strong>Rs. 250</strong>
+                    </div>
+                </article>
+                <article class="food-card text-card">
+                    <div class="food-icon">🍲</div>
+                    <div class="food-card-content">
+                        <h3>Chicken Karahi</h3>
+                        <p>A hearty desi favourite with tomatoes, ginger and fresh spices.</p>
+                        <strong>Rs. 450</strong>
+                    </div>
+                </article>
+                <article class="food-card text-card">
+                    <div class="food-icon">🥘</div>
+                    <div class="food-card-content">
+                        <h3>Aloo Gosht</h3>
+                        <p>A homestyle curry with tender meat and soft potatoes.</p>
+                        <strong>Rs. 350</strong>
+                    </div>
+                </article>
+            </div>
+            <div class="center-action"><a class="button-link" href="menu.html">See the full menu</a></div>
+        </section>
 
-    <img src="images/biryani.jpg" alt="Chicken Biryani">
+        <section class="welcome-strip">
+            <div>
+                <p class="eyebrow">Made for sharing</p>
+                <h2>Simple ingredients. Familiar flavours. Happy meals.</h2>
+            </div>
+            <a class="button-link button-light" href="about.html">Get to know us</a>
+        </section>
+    </main>
 
-    <h2>Today's Menu</h2>
-
-    <table>
-
-        <tr>
-            <th>Dish</th>
-            <th>Price</th>
-        </tr>
-
-        <tr>
-            <td>Chicken Biryani</td>
-            <td>Rs. 250</td>
-        </tr>
-
-        <tr>
-            <td>Chicken Pulao</td>
-            <td>Rs. 220</td>
-        </tr>
-
-        <tr>
-            <td>Daal Chawal</td>
-            <td>Rs. 180</td>
-        </tr>
-
-        <tr>
-            <td>Chicken Karahi</td>
-            <td>Rs. 450</td>
-        </tr>
-
-        <tr>
-            <td>Aloo Gosht</td>
-            <td>Rs. 350</td>
-        </tr>
-
-        <tr>
-            <td>Mix Vegetable Curry</td>
-            <td>Rs. 200</td>
-        </tr>
-
-    </table>
-
-    <button onclick="placeOrder()">Place Your Order</button>
-
-    <script>
-
-        function placeOrder() {
-            window.alert("Thank you for ordering from Desi Dastarkhwan!");
-        }
-
-    </script>
-
+    <footer class="site-footer">
+        <p>© 2026 Desi Dastarkhwan</p>
+        <p>Authentic Taste, Homemade Love!</p>
+    </footer>
 </body>
 </html>

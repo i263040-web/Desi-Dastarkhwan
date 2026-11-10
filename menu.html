@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the Desi Dastarkhwan menu and prices.">
+    <title>Desi Dastarkhwan | Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html">Desi <span>Dastarkhwan</span></a>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a class="active" href="menu.html">Our Menu</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <p class="eyebrow">Something delicious is waiting</p>
+            <h1>Our Menu</h1>
+            <p>Comforting desi meals, familiar favourites and prices that are easy to understand.</p>
+        </section>
+
+        <section class="section menu-section">
+            <div class="section-heading">
+                <h2>Today's favourites</h2>
+                <p>Have a look and choose what sounds good today.</p>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th scope="col">Dish</th><th scope="col">A little about it</th><th scope="col">Price</th><th scope="col">Order</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Chicken Biryani</td><td>Spiced rice with tender chicken</td><td>Rs. 250</td><td><button class="small-button" data-dish="Chicken Biryani">Choose</button></td></tr>
+                        <tr><td>Chicken Pulao</td><td>Mild, aromatic rice with chicken</td><td>Rs. 220</td><td><button class="small-button" data-dish="Chicken Pulao">Choose</button></td></tr>
+                        <tr><td>Daal Chawal</td><td>Comforting lentils served with rice</td><td>Rs. 180</td><td><button class="small-button" data-dish="Daal Chawal">Choose</button></td></tr>
+                        <tr><td>Chicken Karahi</td><td>A rich tomato and spice-based curry</td><td>Rs. 450</td><td><button class="small-button" data-dish="Chicken Karahi">Choose</button></td></tr>
+                        <tr><td>Aloo Gosht</td><td>Homestyle meat and potato curry</td><td>Rs. 350</td><td><button class="small-button" data-dish="Aloo Gosht">Choose</button></td></tr>
+                        <tr><td>Mix Vegetable Curry</td><td>A colourful mix of seasonal vegetables</td><td>Rs. 200</td><td><button class="small-button" data-dish="Mix Vegetable Curry">Choose</button></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="menu-note">Prices are shown in Pakistani rupees. Please contact us to confirm availability.</p>
+
+            <div class="order-panel" id="order">
+                <div>
+                    <p class="eyebrow">Your selection</p>
+                    <h2 id="selected-dish">Nothing selected yet</h2>
+                    <p id="order-message" aria-live="polite">Choose a dish from the menu to see your selection here.</p>
+                </div>
+                <button class="button" id="confirm-order" disabled>Confirm selection</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Desi Dastarkhwan</p>
+        <p>Authentic Taste, Homemade Love!</p>
+    </footer>
+</body>
+</html>
