@@ -1,0 +1,63 @@
+
+/*
+Muhammad ahmed
+26i-3040
+A
+*/
+
+body {
+    background-color: #f6efe5;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    text-align: center;
+    margin: 25px;
+}
+
+h1 {
+    color: #702f35;
+    font-size: 36px;
+}
+
+p {
+    font-size: 17px;
+    color: #765a4c;
+}
+
+img {
+    width: 350px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #702f35;
+    margin-top: 25px;
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #c9b5a5;
+    padding: 12px;
+}
+
+th {
+    background-color: #702f35;
+    color: white;
+}
+
+button {
+    background-color: #702f35;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
